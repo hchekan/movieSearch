@@ -44,8 +44,7 @@ function showSwiper() {
 function addSlides(films) {
   document.querySelector('.search__loader').classList.add('hide');
   films.forEach((item) => {
-    swiper.appendSlide(`<div class="swiper-slide"><div><p class="slide__text" ><a href="https://www.imdb.com/title/
-      ${item.imdbID}/videogallery/" >${item.title}</a></p><img class="slide__image" alt="movie poster" src=${item.poster}
+    swiper.appendSlide(`<div class="swiper-slide"><div><p class="slide__text" ><a href="https://www.imdb.com/title/${item.imdbID}/videogallery/" >${item.title}</a></p><img class="slide__image" alt="movie poster" src=${item.poster}
       ><p class="slide__text">${item.year}</p><p class="slide__text">${item.imdbRating}/10</p></div></div>`);
   });
 }
