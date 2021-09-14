@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieSearch</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+</head>
+<body>
+  
+  <header class="header">
+    <div class="header__container">  
+      <div class="logo">
+        <h1 class="logo__text">MovieSearch</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="search__container">
+    <form>
+      <input type="text" class="search__field" placeholder="Search movie..." autofocus>
+      <button type="button" class="search__button">Search</button>
+      <div class="search__loader"></div>
+      <button type="reset" class="search__clean"><img src="assets/img/clean.png" class="search__clean__image" alt="clean image"></button>
+    </form>
+  </div>
+
+  <div class="message__container hide">
+    <div class="message">
+    </div>
+  </div>
+
+  <div class="error__container hide">
+    <div class="error">
+    </div>
+  </div>
+
+  <div class="swiper-container hide">
+    <div class="swiper-wrapper">    
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev hide"></div>
+    <div class="swiper-button-next hide"></div>
+
+  </div>
+  
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__text">
+          RS School 2021
+        </div>
+        <div class="footer__link__container">
+          <a href="https://github.com/hchekan" class="footer__link" ><img src="assets/img/github.png" class="footer__image__github" alt="github image"><p>hchekan</p></a>
+        </div>
+      </div> 
+    </div>
+  </footer>
+</body>
+
+</html>
